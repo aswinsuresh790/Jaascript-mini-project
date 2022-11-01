@@ -1,0 +1,112 @@
+header{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+   
+}
+header h1{
+    font-size: 5rem;
+}
+body{
+    background-image: url(.//images/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+
+.box{
+    box-sizing: border-box;
+    width:70%;
+    height: 400px;
+    background: #000;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top:5%;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #885650 46%, #28b78c 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%);
+    box-shadow: 4px 2px 70px 29px rgba(50, 201, 131, 0.637);
+    background-size:cover
+    ;
+    border-radius: 10%; 
+    opacity: 0.89;
+}
+/* The full stopwatch displaying screen  inside that it has a box and 3 different buttons */
+#inner-box{
+    width:80%;
+    display: flex;
+    justify-content:center;
+    background:transparent;
+    opacity: 1;
+    height: 90px; 
+    margin-left: 10%;
+    margin-top: 20%;
+    margin-right: 20%;
+    font-size: 3rem;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    box-shadow: 1px 3px  44px 18px white;
+    font-family:monospace;
+
+}
+/* the box contain a output section of timer  were we can see the timer running    */
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    
+}
+
+.buttons   button {
+    width:20%;
+    height:150%;
+    background-color: rgb(106, 35, 173);
+    border-radius: 12%;
+    color: white;
+       font-weight: 500;
+       font-family:monospace;
+       border: transparent;
+}
+
+/* 3 differnt buttons  */
+.buttons   button:hover{
+background-color: rgb(143, 81, 201)
+
+}
+@media only screen and (max-width: 500px){
+    .inner-box{
+        font-size:2rem;
+    }
+    .box{
+        
+      
+
+   
+    }
+    /* width of the whole screen and box reduced */
+}
+@media only screen and (max-width: 900px){
+    .inner-box{
+        font-size:2rem;
+    }
+    .box{
+        width:70%;
+        height: 400px;
+
+       
+        
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top:5%;
+       
+        
+      
+        
+
+                border-radius: 10%;
+    }
+}
+  /* width of the whole screen and box reduced */  
